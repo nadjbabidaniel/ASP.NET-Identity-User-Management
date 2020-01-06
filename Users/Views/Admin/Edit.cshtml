@@ -1,0 +1,25 @@
+﻿@model Users.Models.ApplicationUser
+@{
+    ViewBag.Title = "Edit user";
+}
+@Html.ValidationSummary(false)
+<h2>Edit user</h2>
+
+<div class="form-group">
+    <label>username</label>
+    <p class="form-control-static">@Model.UserName</p>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(x => x.Id)
+    <div class="form-group">
+        <label>Email</label>
+        @Html.TextBoxFor(x => x.Email, new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        <label>password</label>
+        <input name="password" type="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    @Html.ActionLink("cancel", "Index", null, new {@class = "btn btn-default"})
+}

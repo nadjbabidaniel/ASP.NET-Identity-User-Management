@@ -1,0 +1,182 @@
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Users.dll.config
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Users.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Users.pdb
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\EntityFramework.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\EntityFramework.SqlServer.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Newtonsoft.Json.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Owin.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Helpers.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Razor.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.Deployment.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.Razor.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\EntityFramework.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\EntityFramework.SqlServer.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Newtonsoft.Json.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Razor.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.Deployment.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Webpages.Razor.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Helpers.xml
+G:\Code\9781430265412\Chapter 13\Users\Users\obj\Debug\Users.csprojResolveAssemblyReference.cache
+G:\Code\9781430265412\Chapter 13\Users\Users\obj\Debug\Users.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\obj\Debug\Users.pdb
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\Microsoft.Web.Infrastructure.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Mvc.dll
+G:\Code\9781430265412\Chapter 13\Users\Users\bin\System.Web.Mvc.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Users.dll.config
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Users.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Users.pdb
+F:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.SqlServer.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Core.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Cookies.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.OAuth.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Web.Infrastructure.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Newtonsoft.Json.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Owin.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Helpers.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Mvc.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Razor.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Deployment.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Razor.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.SqlServer.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Core.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Cookies.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.OAuth.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Helpers.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Mvc.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Razor.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Deployment.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Razor.xml
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.dll
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.pdb
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Users.dll.config
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Users.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Users.pdb
+G:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.SqlServer.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Core.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Cookies.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.OAuth.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Web.Infrastructure.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Newtonsoft.Json.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Owin.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Helpers.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Mvc.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Razor.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Deployment.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Razor.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\EntityFramework.SqlServer.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Core.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Cookies.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.OAuth.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Helpers.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Mvc.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.Razor.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Deployment.xml
+G:\github\ASP.NET-Identity-User-Management\Users\bin\System.Web.WebPages.Razor.xml
+G:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.dll
+G:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.pdb
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Newtonsoft.Json.xml
+G:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.csprojResolveAssemblyReference.cache
+G:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.csproj.GenerateResource.Cache
+G:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.Migrations.AddCountryProperty.resources
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.Migrations.Init.resources
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.Migrations.AddCountryProperty.resources
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.csproj.GenerateResource.Cache
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Google.dll
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Google.xml
+F:\github\ASP.NET-Identity-User-Management\Users\bin\Newtonsoft.Json.xml
+F:\github\ASP.NET-Identity-User-Management\Users\obj\Debug\Users.csprojResolveAssemblyReference.cache
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Google.dll
+G:\github\ASP.NET-Identity-User-Management\Users\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Users.dll.config
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Users.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Users.pdb
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\EntityFramework.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\EntityFramework.SqlServer.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Newtonsoft.Json.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Owin.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Helpers.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Mvc.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Razor.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Razor.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\EntityFramework.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\EntityFramework.SqlServer.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\Newtonsoft.Json.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Helpers.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Mvc.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.Razor.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Razor.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.Migrations.201509140936514_AddCountryProperty.resources
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csproj.GenerateResource.cache
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csproj.CopyComplete
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.dll
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.pdb
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csprojAssemblyReference.cache
