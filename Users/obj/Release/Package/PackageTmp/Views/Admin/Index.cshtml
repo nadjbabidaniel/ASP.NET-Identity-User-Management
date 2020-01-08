@@ -1,46 +1,105 @@
 ﻿@using Users.Models
-@model IEnumerable<AppUser>
+@model IEnumerable<ApplicationUser>
+
+@*@using PagedList.Mvc;
+    @model PagedList.IPagedList<ContosoUniversity.Models.Student>;*@
+
+
 @{
     ViewBag.Title = "Index";
 }
-<div class="panel panel-primary">
-    <div class="panel-heading" style="text-align: center">
-        ASP.NET Identity 用户管理
-    </div>
-    <table class="table table-striped">
-        <tr>
-            <th>ID</th>
-            <th>用户名</th>
-            <th>Email</th>
-            <th></th>
-        </tr>
-        @if (Model.Count() == 0)
+    <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align: center">
+            ASP.NET User Management
+        </div>
+
+        @using (Html.BeginForm("IndexCountryFilter", "Admin", FormMethod.Get))
         {
-            <tr><td colspan="4" class="text-center">暂无用户</td></tr>
+            <p>
+                Select Country: @Html.DropDownList("SelectedCountry", "All")
+                <input type="submit" value="Filter" />
+            </p>
         }
-        else
+
+        @using (Html.BeginForm("IndexCountryFilter", "Admin", FormMethod.Get))
         {
-            foreach (AppUser user in Model)
+            <p>
+                Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+                <input type="submit" value="Search" />
+            </p>
+        }
+
+        @using (Html.BeginForm("SaveData", "Admin", FormMethod.Get))
+        {
+            <p>
+                <input type="submit" value="Save" />
+            </p>
+        }
+
+        @using (Html.BeginForm("UploadData", "Admin", FormMethod.Get))
+        {
+            <p>
+                <input type="submit" value="Upload" />
+            </p>
+        }
+
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Job Title</th>
+                <th>Ethnicity</th>
+                <th>Country</th>
+                <th>State Name</th>
+                <th>Delete</th>
+                <th>Edit</th>
+                <th></th>
+                <th></th>
+            </tr>
+            @if (Model.Count() == 0)
             {
-                <tr>
-                    <td>@user.Id</td>
-                    <td>@user.UserName</td>
-                    <td>@user.Email</td>
-                    <td>
-                        @using (Html.BeginForm("Delete", "Admin",
-                            new {id = user.Id}))
-                        {
-                            @Html.ActionLink("编辑", "Edit", new {id = user.Id},
-                                new {@class = "btn btn-primary btn-xs"})
-                            <button class="btn btn-danger btn-xs"
-                                    type="submit">
-                                删除
-                            </button>
-                        }
-                    </td>
-                </tr>
+                <tr><td colspan="4" class="text-center">No users</td></tr>
             }
-        }
-    </table>
-</div>
-@Html.ActionLink("创建", "Create", null, new {@class = "btn btn-primary"})
+            else
+            {
+                foreach (ApplicationUser user in Model)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.UserName</td>
+                        <td>@user.Email</td>
+                        <td>@user.Gender.ToString()</td>
+                        <td>@user.JobTitle</td>
+                        <td>@user.Ethnicity.ToString()</td>
+                        <td>@user.Country</td>
+                        <td>@user.StateName</td>
+                        <td>
+                            @using (Html.BeginForm("Delete", "Admin",
+                                new { id = user.Id }))
+                            {
+
+                                <button class="btn btn-danger btn-xs"
+                                        type="submit">
+                                    Delete
+                                </button>
+                            }
+                        </td>
+                        <td>
+                            @Html.ActionLink("edit", "Edit", new { id = user.Id },
+                                    new { @class = "btn btn-primary btn-xs" })
+                        </td>
+
+                        <td></td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+@Html.ActionLink("Create", "Create", null, new { @class = "btn btn-primary" })
+
+@*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))*@

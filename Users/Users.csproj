@@ -153,6 +153,8 @@
     <None Include="Properties\PublishProfiles\myusermanagement - Web Deploy.pubxml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\Users-20200106 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Users20200108 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -191,6 +193,10 @@
     <Compile Include="Migrations\201509140936514_AddCountryProperty.designer.cs">
       <DependentUpon>201509140936514_AddCountryProperty.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001082132446_2.cs" />
+    <Compile Include="Migrations\202001082132446_2.Designer.cs">
+      <DependentUpon>202001082132446_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppRole.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -224,6 +230,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201509140936514_AddCountryProperty.resx">
       <DependentUpon>201509140936514_AddCountryProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001082132446_2.resx">
+      <DependentUpon>202001082132446_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

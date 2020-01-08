@@ -174,9 +174,10 @@ C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\A
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.xml
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\bin\System.Web.WebPages.Razor.xml
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csprojAssemblyReference.cache
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.Migrations.201509140936514_AddCountryProperty.resources
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csproj.GenerateResource.cache
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csproj.CopyComplete
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.dll
 C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.pdb
-C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.csprojAssemblyReference.cache
+C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Debug\Users.Migrations._2.resources

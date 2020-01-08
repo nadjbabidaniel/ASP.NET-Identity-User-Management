@@ -2,7 +2,7 @@
     ViewBag.Title = "Index"; 
 }
 <div class="panel panel-primary">
-    <div class="panel-heading">用户信息</div>
+    <div class="panel-heading">User Info</div>
     <table class="table table-striped">
         @foreach (string key in Model.Keys)
         {
@@ -13,4 +13,4 @@
         }
     </table>
 </div>
-@Html.ActionLink("注销", "Logout", "Account", null, new { @class = "btn btn-primary" })
+@Html.ActionLink("Logout", "Logout", "Account", null, new { @class = "btn btn-primary" })

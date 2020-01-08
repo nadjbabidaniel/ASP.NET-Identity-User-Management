@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="G:\github\ASP.NET-Identity-User-Management\Users\obj\Release\Package\PackageTmp" />
-  <setAcl path="G:\github\ASP.NET-Identity-User-Management\Users\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="G:\github\ASP.NET-Identity-User-Management\Users\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Operations Intern 5\Downloads\ASP.NET-Identity-User-Management-master\ASP.NET-Identity-User-Management-master\Users\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>
