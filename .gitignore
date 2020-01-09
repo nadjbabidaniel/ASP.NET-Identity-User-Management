@@ -1,3 +1,5 @@
 *.pubxml
 *.user
 *.vs
+*.userprefs
+*.bin

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Windows.Forms;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Users.Infrastructure;
@@ -68,7 +70,7 @@ namespace Users.Controllers
             return View( "Index", allUsers);
         }
 
-        public ActionResult SaveData()
+        public async Task<ActionResult> SaveData()
         {
             List<ApplicationUser> userFiltered = TempData["ListOfFilteredUsers"] as List<ApplicationUser>;
 
@@ -84,9 +86,37 @@ namespace Users.Controllers
                     {
                         string oneRow = item?.UserName?.Replace(',', ' ') + "," + item?.FirstName?.Replace(',', ' ') + "," + item?.LastName?.Replace(',', ' ') + "," + item?.Email?.Replace(',', ' ');
                         lines.Add(oneRow);
-                    }
+                    }                    
+
+                    string selectedPath = string.Empty;                  
+
+                    var t = new Thread((() =>
+                    {
+                        FolderBrowserDialog fbd = new FolderBrowserDialog();
+                        fbd.RootFolder = System.Environment.SpecialFolder.MyComputer;
+                        fbd.ShowNewFolderButton = true;
+
+                        if (fbd.ShowDialog() == DialogResult.Cancel)
+                            return;
+
+                        selectedPath = fbd.SelectedPath;
+                    }));
+
+                    t.SetApartmentState(ApartmentState.STA);
+                    t.Start();
+                    t.Join();
+
+                    if (!string.IsNullOrEmpty(selectedPath))                    
+                        System.IO.File.WriteAllLines(selectedPath + "\\File.csv", lines); 
                     
-                    System.IO.File.WriteAllLines(filePath, lines);
+
+                    // Show the FolderBrowserDialog.
+                    //DialogResult result = folderBrowserDialog1.ShowDialog();
+                    //if (result == DialogResult.OK)
+                    //{
+                    //    string folderName = folderBrowserDialog1.SelectedPath;
+                    //    System.IO.File.WriteAllLines(filePath, lines);
+                    //}                    
                 }
                 catch (Exception ex)
                 {
@@ -98,37 +128,59 @@ namespace Users.Controllers
         }
 
         public async Task<ActionResult> UploadData()
-        {            
-            StreamReader sr = new StreamReader(filePath);
-            int count = 0;
-
-            while (!sr.EndOfStream)
+        {
+            try
             {
-                if (count == 0) 
+                string selectedPath = string.Empty;
+
+                var t = new Thread((() =>
                 {
-                    count++; 
-                    continue; 
-                }
+                    OpenFileDialog fbd = new OpenFileDialog();
 
-                string line = sr.ReadLine();
-                string[] value = line.Split(',');
+                    if (fbd.ShowDialog() == DialogResult.OK)
+                    {
+                        var sr = new StreamReader(fbd.FileName);
+                        int count = 0;
 
-                ApplicationUser user = new ApplicationUser
-                {
-                    UserName = value[0],
-                    FirstName = value[1],
-                    LastName = value[2],
-                    Email = value[3]
-                };                
+                        while (!sr.EndOfStream)
+                        {
+                            if (count == 0)
+                            {
+                                count++;
+                                continue;
+                            }
 
-                var result = await UserManager.CreateAsync(user);
+                            string line = sr.ReadLine();
+                            string[] value = line.Split(',');
 
-                if (!result.Succeeded)
-                {
-                    AddErrors(result);
-                }
+                            ApplicationUser user = new ApplicationUser
+                            {
+                                UserName = value[0],
+                                FirstName = value[1],
+                                LastName = value[2],
+                                Email = value[3]
+                            };
 
-            }                      
+                            var result =  UserManager.Create(user);
+
+                            if (!result.Succeeded)
+                            {
+                                AddErrors(result);
+                            }
+                        }
+
+                    }
+                    else { return; }                                                          
+                }));
+
+                t.SetApartmentState(ApartmentState.STA);
+                t.Start();
+                t.Join();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
 
             return RedirectToAction("Index");
         }
