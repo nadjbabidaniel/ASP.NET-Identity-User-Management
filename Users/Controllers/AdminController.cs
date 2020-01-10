@@ -88,35 +88,31 @@ namespace Users.Controllers
                         lines.Add(oneRow);
                     }                    
 
-                    string selectedPath = string.Empty;                  
+                    string selectedPath = string.Empty;                   
 
                     var t = new Thread((() =>
                     {
-                        FolderBrowserDialog fbd = new FolderBrowserDialog();
-                        fbd.RootFolder = System.Environment.SpecialFolder.MyComputer;
-                        fbd.ShowNewFolderButton = true;
+                        using (FolderBrowserDialog fbd = new FolderBrowserDialog())
+                        {
+                            fbd.RootFolder = System.Environment.SpecialFolder.MyComputer;
+                            fbd.ShowNewFolderButton = true;
 
-                        if (fbd.ShowDialog() == DialogResult.Cancel)
-                            return;
+                            if (fbd.ShowDialog() == DialogResult.Cancel)
+                                return;
 
-                        selectedPath = fbd.SelectedPath;
+                            selectedPath = fbd.SelectedPath;
+                        }
                     }));
 
                     t.SetApartmentState(ApartmentState.STA);
                     t.Start();
                     t.Join();
 
-                    if (!string.IsNullOrEmpty(selectedPath))                    
-                        System.IO.File.WriteAllLines(selectedPath + "\\File.csv", lines); 
-                    
+                    if (!string.IsNullOrEmpty(selectedPath))
+                    {
+                        System.IO.File.WriteAllLines(selectedPath + "\\File.csv", lines);
+                    }                    
 
-                    // Show the FolderBrowserDialog.
-                    //DialogResult result = folderBrowserDialog1.ShowDialog();
-                    //if (result == DialogResult.OK)
-                    //{
-                    //    string folderName = folderBrowserDialog1.SelectedPath;
-                    //    System.IO.File.WriteAllLines(filePath, lines);
-                    //}                    
                 }
                 catch (Exception ex)
                 {
